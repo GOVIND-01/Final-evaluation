@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(4,20%);
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+}
+.Cards div {
+  /* border: 1px solid black; */
+  background-color: rgb(245, 243, 237);
+  margin: 5px;
+}
+.Cards h3 {
+  color:  crimson;
+}
